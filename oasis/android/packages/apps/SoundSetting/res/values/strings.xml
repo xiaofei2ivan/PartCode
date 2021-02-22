@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SoundSetting</string>
+    <string name="aux1">AUX1</string>
+    <string name="aux2">AUX2</string>
+</resources>

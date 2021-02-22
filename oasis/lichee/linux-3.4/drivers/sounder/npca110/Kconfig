@@ -1,0 +1,15 @@
+
+#
+#  sounder DSP deviced.
+#
+
+
+config  NPCA110_I2C_DIV
+	tristate "--- NPCA110 sounder DSP deal for sounder device --- "
+	default n
+	help
+	  say Y here, when you have a i2c device want to be enable and test.
+	  when  unsure , Say N.
+
+
+

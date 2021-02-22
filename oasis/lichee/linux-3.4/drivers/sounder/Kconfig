@@ -1,0 +1,18 @@
+
+#
+#  sounder power amp deviced.
+#
+
+menuconfig  SOUNDER_DEVICE
+	tristate "--- sounder DSP and power-amp devices --- "
+	default n
+	help
+	  say Y here, when you have a i2c device want to be enable and test.
+	  when  unsure , Say N.
+
+if SOUNDER_DEVICE
+
+source "drivers/sounder/ntp8230/Kconfig"
+source "drivers/sounder/npca110/Kconfig"
+
+endif

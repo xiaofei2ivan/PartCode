@@ -1,0 +1,15 @@
+
+#
+#  sounder power amp deviced.
+#
+
+
+config  NTP8230_I2C_DIV
+	tristate "--- NTP8230 power amp driver for sounder device --- "
+	default n
+	help
+	  say Y here, when you have a i2c device want to be enable and test.
+	  when  unsure , Say N.
+
+
+
